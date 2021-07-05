@@ -314,6 +314,9 @@ function tile(candidates, etc_tzid, min_lat, min_lon, max_lat, max_lon, depth) {
       if(a === "Europe/Amsterdam" && b === "Europe/Berlin") { return a; }
       if(a === "Australia/Sydney" && b === "Australia/Melbourne") { return a; }
 
+      // 2020d addition in the fork, return Moscow since it is bigger. I don't know where the error actually is
+      if(a === "Asia/Tbilisi" && b === "Europe/Moscow") { return b; }
+
       throw new Error("unresolved zone conflict: " + a + " vs " + b);
     }
 
