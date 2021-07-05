@@ -1,8 +1,8 @@
 #!/bin/bash
 set -ex
-TZ="2019b"
+TZ="2020d"
 
-rm -rf timezones.geojson.zip dist ne_10m_urban_areas.*
+rm -rf timezones.geojson.zip ne_10m_urban_areas.*
 curl -L --retry 3 -C - \
   -O "https://github.com/evansiroky/timezone-boundary-builder/releases/download/$TZ/timezones.geojson.zip" \
   -O 'http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_urban_areas.zip'
