@@ -5,7 +5,9 @@ a location given its latitude and longitude. It works in both the browser and
 in Node.JS, and is very fast and lightweight (~71KB) given what it does. We
 use it in production for [The Dark Sky API][1].
 
-**This library is no longer actively maintained under an Open Source license. Please fork it if you would like to continue development.**
+**This is a fork of https://github.com/darkskyapp/tz-lookup-oss**
+
+I have attempted to regenerate the database to 2020d, instead of 2019b in the no-longer-maintained original repository. This may or may not work, use your own discretion.
 
 [1]: https://darksky.net/dev/
 
