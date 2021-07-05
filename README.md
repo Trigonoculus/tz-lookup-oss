@@ -4,7 +4,7 @@ tz-lookup
 ### Notice:
 **This is a fork of https://github.com/darkskyapp/tz-lookup-oss / https://www.npmjs.com/package/tz-lookup**
 
-I have attempted to regenerate the database to 2020d, instead of 2019b in the no-longer-maintained original repository. There are no guarantee that it will work perfectly; use your own discretion.
+I have attempted to regenerate the database to 2020d, instead of 2019b in the no-longer-maintained original repository. There are no guarantee that it will work perfectly; use at your own discretion.
 
 ---
 
