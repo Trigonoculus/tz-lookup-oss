@@ -1,13 +1,17 @@
 tz-lookup
 =========
+
+### Notice:
+**This is a fork of https://github.com/darkskyapp/tz-lookup-oss / https://www.npmjs.com/package/tz-lookup**
+
+I have attempted to regenerate the database to 2020d, instead of 2019b in the no-longer-maintained original repository. There are no guarantee that it will work perfectly; use your own discretion.
+
+---
+
 This is a little Javascript library that allows you to look up the time zone of
 a location given its latitude and longitude. It works in both the browser and
 in Node.JS, and is very fast and lightweight (~71KB) given what it does. We
 use it in production for [The Dark Sky API][1].
-
-**This is a fork of https://github.com/darkskyapp/tz-lookup-oss**
-
-I have attempted to regenerate the database to 2020d, instead of 2019b in the no-longer-maintained original repository. This may or may not work, use your own discretion.
 
 [1]: https://darksky.net/dev/
 
@@ -15,12 +19,12 @@ Usage
 -----
 To install:
 
-    npm install tz-lookup
+    npm install tz-lookup-oss
 
 Node.JS usage:
 
 ```javascript
-var tzlookup = require("tz-lookup");
+var tzlookup = require("tz-lookup-oss");
 console.log(tzlookup(42.7235, -73.6931)); // prints "America/New_York"
 ```
 
