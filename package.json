@@ -15,10 +15,10 @@
   ],
   "license": "CC0-1.0",
   "main": "tz.js",
-  "name": "tz-lookup",
+  "name": "tz-lookup-oss",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Trigonoculus/tz-lookup.git"
+    "url": "git://github.com/Trigonoculus/tz-lookup-oss.git"
   },
   "scripts": {
     "test": "mocha"
