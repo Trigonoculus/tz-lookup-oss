@@ -1,9 +1,9 @@
 {
   "author": {
-    "email": "developer@darksky.net",
-    "name": "The Dark Sky Company"
+    "email": "github@trigono.culus.party",
+    "name": "Trigonoculus"
   },
-  "description": "fast time zone lookup",
+  "description": "fast time zone lookup (updated to 2020d)",
   "devDependencies": {
     "mocha": "*",
     "uglify-js": "*"
@@ -18,10 +18,10 @@
   "name": "tz-lookup",
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/tz-lookup.git"
+    "url": "git://github.com/Trigonoculus/tz-lookup.git"
   },
   "scripts": {
     "test": "mocha"
   },
-  "version": "6.1.26"
+  "version": "6.2"
 }
