@@ -68,6 +68,16 @@ $ sudo apt install gdal-bin # on Ubuntu
 Then, simply execute `rebuild.sh`. Expect it to take 10-30 minutes, depending
 on your network connection and CPU.
 
+The script may throw an error after downloading the files. If that's the case,
+execute these commands (after the files have been downloaded):
+
+```bash
+mkdir dist
+cp combined.json dist
+```
+
+Then, reexecute the script. You do not have to override the files.
+
 [tbb]: https://github.com/evansiroky/timezone-boundary-builder/
 
 License
